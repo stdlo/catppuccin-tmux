@@ -174,10 +174,10 @@ main() {
   fi
 
   # Right column 1 by default shows the Window name.
-  local right_column1=$show_window
+  local right_column1="" #$show_window #disable window name
 
   # Right column 2 by default shows the current Session name.
-  local right_column2=$show_session
+  local right_column2="" #$show_session #disable session name
 
   # Window status by default shows the current directory basename.
   local window_status_format=$show_directory_in_window_status
